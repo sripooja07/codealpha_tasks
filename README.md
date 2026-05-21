@@ -48,6 +48,3 @@ Attempts left: 6
 Enter a letter: p
 Correct!
 ```
-
-## Author
-Your Name
