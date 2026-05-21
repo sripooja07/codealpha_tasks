@@ -1,14 +1,35 @@
-### 📈 Task 2: Stock Portfolio Tracker
-A Python application that calculates the total investment value of a user's stock portfolio.
+# Email Extractor Automation Project
 
-**Features:**
-- User stock input
-- Predefined stock prices
-- Portfolio value calculation
-- Optional CSV/TXT file storage
+## Description
+This project extracts email addresses from a text file using Python Regular Expressions and stores them in a CSV file.
 
-**Concepts Used:**
-- Dictionaries
-- File handling
-- Input/output
-- Basic calculations
+## Features
+- Reads text file
+- Extracts emails automatically
+- Saves output to CSV
+- Uses Regular Expressions
+- Uses File Handling
+
+## Technologies Used
+- Python
+- Regex (re)
+- CSV
+- Pandas
+
+## Project Structure
+
+Task-Automation/
+│── TaskAutomation.ipynb
+│── automation.py
+│── emails.txt
+│── extracted_emails.csv
+
+## Run Project
+
+```bash
+python automation.py
+```
+
+## Output
+Extracted email addresses are stored in:
+`extracted_emails.csv`
